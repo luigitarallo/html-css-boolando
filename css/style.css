@@ -14,12 +14,21 @@
 header {
   width: 100%;
   height: 4rem;
-  background-color: orange;
+  background-color: #ff6900;
   position: fixed;
 }
 
 img {
   max-width: 100%;
+}
+
+header img {
+  width: 10rem;
+}
+
+.link-item {
+  list-style-type: none;
+  display: inline-block;
 }
 
 main {
@@ -32,6 +41,12 @@ section {
   position: relative;
 }
 
+.discount {
+  position: absolute;
+  bottom: 1rem;
+  left: 7rem;
+}
+
 footer {
   width: 100%;
   height: 5rem;
@@ -42,6 +57,10 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 20px 10px;
+}
+
+.h-flex {
+  align-items: center;
 }
 
 /* # DEBUG */
