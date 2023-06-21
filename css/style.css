@@ -111,4 +111,13 @@ footer {
 
 .current-price {
   color: red;
+  font-weight: 600;
+}
+
+.previous-price {
+  text-decoration: line-through;
+}
+
+section > span {
+  font-size: 0.9rem;
 }
