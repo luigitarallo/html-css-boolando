@@ -18,8 +18,18 @@ header {
   position: fixed;
 }
 
+img {
+  max-width: 100%;
+}
+
 main {
-  padding-top: 4rem;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+}
+
+section {
+  width: calc((100% / 3) - 10px);
+  position: relative;
 }
 
 footer {
@@ -32,14 +42,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 20px 10px;
-}
-
-section {
-  width: calc((100% / 3) - 10px);
-}
-
-img {
-  max-width: 100%;
 }
 
 /* # DEBUG */
