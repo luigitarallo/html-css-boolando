@@ -17,13 +17,20 @@ header {
   background-color: orange;
 }
 
+footer {
+  width: 100%;
+  height: 5rem;
+  background-color: black;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px 10px;
 }
 
 section {
-  width: calc(100% / 3);
+  width: calc((100% / 3) - 10px);
 }
 
 img {
@@ -37,12 +44,10 @@ img {
 }
 
 .bg-blue {
-  height: 4rem;
   background-color: blue;
 }
 
 .bg-red {
-  height: 4rem;
   background-color: red;
 }
 
