@@ -18,6 +18,10 @@ img {
   max-width: 100%;
 }
 
+.flex {
+  display: flex;
+}
+
 /* # HEADER */
 
 header {
@@ -43,6 +47,10 @@ header {
 
 header img {
   width: 8rem;
+}
+
+header i {
+  margin: 3px;
 }
 
 /* # MAIN */
@@ -87,6 +95,31 @@ section > p {
   font-weight: 100;
 }
 
+.h-flex {
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.m-flex {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px 20px;
+}
+
+.current-price {
+  color: red;
+  font-weight: 600;
+}
+
+.previous-price {
+  text-decoration: line-through;
+}
+
+section > span {
+  font-size: 0.9rem;
+}
+
 .discount {
   position: absolute;
   bottom: 6rem;
@@ -111,35 +144,48 @@ section > p {
 
 footer {
   width: 100%;
-  height: 5rem;
-  background-color: black;
+  height: 7rem;
+  background-color: #1a1a1a;
 }
 
-.flex {
-  display: flex;
-}
-
-.h-flex {
+.footer-info {
   justify-content: space-between;
   align-items: center;
-  height: 4rem;
+  height: 100%;
 }
 
-.m-flex {
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 50px 20px;
+.legal {
+  flex-direction: column;
 }
 
-.current-price {
-  color: red;
+.logo-text {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.info-link {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.social {
+  flex-direction: column;
+  align-content: center;
+}
+
+.social-text {
+  color: white;
+  margin-bottom: 5px;
   font-weight: 600;
 }
 
-.previous-price {
-  text-decoration: line-through;
+.social-icon {
+  justify-content: space-around;
 }
 
-section > span {
-  font-size: 0.9rem;
+.social-icon > a {
+  font-size: 1.5rem;
+  margin-right: 10px;
 }
