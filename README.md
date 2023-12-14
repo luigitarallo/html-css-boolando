@@ -6,5 +6,4 @@ Replica di una pagina del sito Zalando
 
 - HTML
 - CSS
-- Bootstrap
 - Fontawesome
