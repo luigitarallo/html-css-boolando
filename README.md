@@ -10,6 +10,6 @@ _The first exercises of the Boolean course_
 - CSS
 - Fontawesome
 
-## Screenshot
+## ScreenShot
 
 ![Alt text](/img/boolando-result.png)
